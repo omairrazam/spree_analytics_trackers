@@ -1,4 +1,4 @@
-<% if params[:search].present? %>
+<% if params.present? && params[:search].present? %>
   <script>
     if (typeof analytics !== 'undefined') {
       analytics.track('Product List Filtered', {
