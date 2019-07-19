@@ -5,7 +5,7 @@ require 'spree_analytics_trackers/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_dev_analytics_trackers'
+  s.name        = 'spree_analytics_trackers'
   s.version     = SpreeAnalyticsTrackers.version
   s.summary     = 'Adds analytics trackers functionality to Spree'
   s.description = 'Supports Google Analytics '
